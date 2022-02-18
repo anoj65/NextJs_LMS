@@ -1,9 +1,26 @@
-html,
-body {
+:root {
+  --fgColor: #130D0E;
+  --bgColor: #ffffff;
+  --themeColor1: #fbb040;
+  --themeColor2: #24489e;
+  --themeColor3: #414942;
+}
+
+*,*:focus,*:hover{
+  outline:none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html, body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -11,6 +28,7 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+h1,h2,h3,h4,h5,h6, p{
+  margin: 0;
+  padding: 0;
 }
